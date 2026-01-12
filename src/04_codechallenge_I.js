@@ -15,3 +15,4 @@ let Zahl1 = prompt("geben Sie die erste Zahl ein: ");
 let Zahl2 = prompt("geben Sie die zweite Zahl ein: ");
 let Summe = Number(Zahl1) + Number(Zahl2);
 console.log("Die Summe der Zahlen ist: " + Summe);
+/*********   CODE CHALLENGE 01 **********/
