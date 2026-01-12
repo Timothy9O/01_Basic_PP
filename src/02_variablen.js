@@ -40,10 +40,10 @@
 /* Variablen vs. Konstanten in JS */;
 
 // Variable
-let test; // Variable : Deklaration
-test = "hi"; // Wertzuweisung (Initialisiereung)
-test = "hello"; // Überschreiben
-console.log("Inhalt: " + test); // Ausgabe
+//let test; // Variable : Deklaration
+//test = "hi"; // Wertzuweisung (Initialisiereung)
+//test = "hello"; // Überschreiben
+//console.log("Inhalt: " + test); // Ausgabe
 
 
 
@@ -70,11 +70,34 @@ console.log("Inhalt: " + test); // Ausgabe
 // console.log("Inhalt: " + test); // Ausgabe Inhalt
 // console.log("----------------")
 
-// Konstante
-const test2 = "hi!";
-//test2 = "hello"; // Fehler! Überschreiben nicht möglich
-console.log("Inhalt: " + test2); // Ausgabe
+/*  
+    Wertzuweisung II + Datentypen 
+    JS ist ein untypisierte Sprache!
+*/
 
+// let test; // Deklarartion
+
+// console.log("Datentyp: " + typeof test); // Ausgabe Datentyp
+// console.log("Inhalt: " + test); // Ausgabe Inhalt
+// console.log("----------------")
+
+// test = "hi"; // string
+// console.log("Datentyp: " + typeof test); // Ausgabe Datentyp
+// console.log("Inhalt: " + test); // Ausgabe Inhalt
+// console.log("----------------")
+
+// test = 2; // number
+// console.log("Datentyp: " + typeof test); // Ausgabe Datentyp
+// console.log("Inhalt: " + test); // Ausgabe Inhalt
+// console.log("----------------")
+
+// test = true; // boolean
+// console.log("Datentyp: " + typeof test); // Ausgabe Datentyp
+// console.log("Inhalt: " + test); // Ausgabe Inhalt
+// console.log("----------------")
+
+
+/* Variablen vs. Konstanten in JS */
 
 // Variable
 let test;  // Variable : Deklaration
