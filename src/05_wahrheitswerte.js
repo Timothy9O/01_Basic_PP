@@ -3,7 +3,7 @@
 
 // Deklaration
 let ageJohn, ageMark;
-const birthYearJohn = 1980;
+const birthYearJohn = 1990;
 const birthYearMark = 1990;
 
 // Berechnung Alter - Iteration I
@@ -29,4 +29,13 @@ ageMark = year - birthYearMark;
 // Ausgabe
 console.log("ageJohn: " + ageJohn);
 console.log("ageMark: " + ageMark);
+
+// Deklaration | Tests | Aussagenlogik
+// let isJohnOlder = false;
+let isJohnOlder = (ageJohn > ageMark); // Test auf Ungleichheit
+let isJohnEqual = (ageJohn == ageMark) // Test auf Gleichheit
+console.log("isJohnOlder: " + isJohnOlder);
+console.log("isJohnEqual: " + isJohnEqual);
+
+
 
