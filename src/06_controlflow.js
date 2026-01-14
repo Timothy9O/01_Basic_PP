@@ -38,10 +38,26 @@ console.log("------------------");
 // if (true) 
 // if(false)
 // if(isJohnOlder)
-if(ageJohn > ageMark)
+// if(ageJohn > ageMark)
+// {
+//    console.log("John ist älter.");  
+// } 
+// else 
+// {
+//    console.log("John ist jünger.");  
+// }
+
+/************ IF - ELSE IF  ************/
+// mit alternativen Fällen (älter, jünger, gleich alt)
+
+if(isJohnOlder)
 {
    console.log("John ist älter.");  
 } 
+else if(isJohnEqual)  // alternative Zweig
+{
+    console.log("John ist gleich alt.");  
+}
 else 
 {
    console.log("John ist jünger.");  
