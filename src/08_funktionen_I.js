@@ -58,7 +58,7 @@ function ausgabeNamen3(firstName, familyName) {  // Parameter
 // Postulat: one function = one job (uncle Bob)
 // SRP single responsibility principle
 
-ausgabeNamenSRP("Max", "Mütze");
+// ausgabeNamenSRP("Max", "Mütze");
 
 function ausgabeNamenSRP(firstName, familyName) {  // Parameter
 
@@ -70,3 +70,28 @@ function ausgabeNamenSRP(firstName, familyName) {  // Parameter
     console.log(outputStr);
 
 }
+
+/***** Funktionen 03b *****/
+// 03b Verantwortlichkeiten in getrennte Funktionen auslagern
+
+
+//1st responsibility: string composing
+ output(getString("Max","Mütze"));
+
+
+function getString(firstName, familyName ) {
+    const GAP = " ";
+    let outputStr = "Hallo, " + firstName + GAP + familyName + "!"
+    output("test");
+    return outputStr; // Fkt.- OUTPUT sendet Daten zum call
+    output("hi");  // Abbruch NACH return
+}
+
+// 2nd responsibility: string output
+// output("hi");
+// output(2);
+// output(true);
+ function output(outputData) {
+    console.log(outputData);
+ }
+
